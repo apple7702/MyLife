@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/promotion_item"
+    android:layout_width="fill_parent"
+    android:layout_height="110dp"
+    android:background="@android:color/transparent">
+
+
+
+    <TextView
+        android:id="@+id/gym_item"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        />
+
+
+    <TextView
+        android:id="@+id/coupon_item"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="15dip"
+        android:textSize="12sp"
+        android:textColor="#ffffff"
+        android:layout_below="@id/gym_item"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/delete_item"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="@drawable/option"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp">
+
+    </Button>
+
+</RelativeLayout>

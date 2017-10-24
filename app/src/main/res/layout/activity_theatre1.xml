@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgd2"
+    android:hardwareAccelerated="false" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_below="@id/textView"
+        android:scaleType="center"
+        android:src="@drawable/the0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="Dushu Lake Theatre"
+        android:textColor="#f5fce8"
+        android:textSize="30dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout2">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="15dp"
+                android:textColor="#f5fce8"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Wuzhong district 555 xinghu street"
+                android:textColor="#f5fce8"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.4dp"
+                android:background="@drawable/line"
+                android:id="@+id/line1"
+                android:layout_below="@id/textView"
+                android:layout_marginTop="18dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Stores Services"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f5fce8"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Indoor and outdoor free parking and provide free WIFI"
+                android:textColor="#f5fce8"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.4dp"
+                android:background="@drawable/line"
+                android:id="@+id/line"
+                android:layout_below="@id/textView"
+                android:layout_marginTop="18dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact us"
+                android:textSize="24dp"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/line"
+                android:textColor="#f5fce8"
+                android:onClick="contact"
+                android:textStyle="bold"
+                android:layout_marginLeft="650dp"
+                android:layout_marginTop="38dp"/>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="0.4dp"
+                android:background="@drawable/line"
+                android:id="@+id/line5"
+                android:layout_below="@id/textView3"
+                android:layout_marginLeft="645dp"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
